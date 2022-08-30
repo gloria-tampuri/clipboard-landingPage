@@ -1,0 +1,39 @@
+.WorkFlow{
+    text-align: center;
+}
+
+.WorkFlow p{
+    margin: 1rem;
+}
+
+.tools{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tool{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.tool img{
+    display: block;
+    margin: 1rem auto;
+    width: 2rem;
+}
+
+@media (max-width: 768px){
+    .tools{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .tool{
+        width: 100%;
+    }
+}
+

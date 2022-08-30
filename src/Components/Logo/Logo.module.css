@@ -1,0 +1,14 @@
+.Logo{
+    background-image: url(../../assets/bg-header-desktop.png);
+    display: flex;
+   justify-content: center;
+  padding-top: 3rem;
+}
+
+
+
+@media (max-width: 768px){
+ .Logo{
+  background-image: url(../../assets/bg-header-mobile.png);
+ }
+}

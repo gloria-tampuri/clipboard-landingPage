@@ -1,0 +1,23 @@
+.Brands{
+    display: flex;
+    width: 80%;
+    margin: 5rem auto;
+    justify-content: center;
+}
+
+.Brands img{
+    /* display: block; */
+    width: 7rem;
+    margin: 2rem;
+}
+
+@media (max-width: 768px){
+    .Brands{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Brands img{
+       
+    }
+}

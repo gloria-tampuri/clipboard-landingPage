@@ -1,0 +1,43 @@
+.snippetwrapper{
+    display: flex;
+    margin-top:5rem ;
+}
+.desktop{
+    width: 65%;
+    transform: translateX(-100px);
+}
+.words{
+/* background-color: aqua; */
+width: 25%;
+margin-top: 3rem;
+}
+
+.sections{
+    margin: 2rem;
+}
+
+.sections h3{
+color:  hsl(210, 10%, 33%);;
+}
+
+.sections p{
+    color: hsl(201, 11%, 66%);
+}
+
+
+@media (max-width: 768px){
+    .snippetwrapper{
+        flex-direction: column;
+    }
+    .desktop{
+        width: 90%;
+        margin: 0 auto;
+        transform: translateX(0);
+    }
+
+    .words{
+        width: 90%;
+        margin: 2rem auto;
+        text-align: center;
+    }
+   }

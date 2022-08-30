@@ -1,0 +1,71 @@
+.Hero{
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+    color:  hsl(210, 10%, 33%);
+
+}
+
+.Hero p{
+    width: 45%;
+    margin: 1rem auto;
+    color: hsl(201, 11%, 66%);
+}
+
+.buttons{
+   margin-top: 2rem;
+   display: flex;
+   place-content: center;
+   /* background-color: red; */
+}
+
+.buttons button{
+    color: white;
+    border: none;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.btn1{
+background-color:  hsl(171, 66%, 44%);
+
+}
+
+.btn1:hover{
+    box-shadow: 0px 6px 15px  hsl(171, 66%, 44%);
+}
+
+.btn2{
+    background-color:hsl(233, 100%, 69%) ;
+}
+
+.btn2:hover{
+    box-shadow: 0px 6px 15px hsl(233, 100%, 69%);
+}
+
+.snippets{
+    margin-top: 5rem;
+}
+
+.snippets h2{
+    color:  hsl(210, 10%, 33%);
+}
+
+
+@media (max-width: 768px) {
+.buttons{
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Hero{
+width: 90%;
+}
+
+.Hero p{
+    width: 80%;
+}
+}
